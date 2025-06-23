@@ -1,0 +1,7 @@
+{"time":"2025-06-17T21:18:16.90277622+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/tjclark/RP/MEGA-GNN/wandb/run-20250617_211816-yrzz8vpx/logs/debug-core.log"}
+{"time":"2025-06-17T21:18:17.169581153+02:00","level":"INFO","msg":"created new stream","id":"yrzz8vpx"}
+{"time":"2025-06-17T21:18:17.169693473+02:00","level":"INFO","msg":"stream: started","id":"yrzz8vpx"}
+{"time":"2025-06-17T21:18:17.169726868+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yrzz8vpx"}
+{"time":"2025-06-17T21:18:17.169742591+02:00","level":"INFO","msg":"sender: started","stream_id":"yrzz8vpx"}
+{"time":"2025-06-17T21:18:17.169715795+02:00","level":"INFO","msg":"handler: started","stream_id":"yrzz8vpx"}
+{"time":"2025-06-17T21:18:17.409827186+02:00","level":"INFO","msg":"Starting system monitor"}

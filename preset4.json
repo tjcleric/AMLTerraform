@@ -1,0 +1,30 @@
+{
+    "ignore": "data/HI-Small_Trans.csv",
+    "inputfile": "data/unformatted_test_split.csv",
+    "outputfile": "data/augmented.csv",
+    "modification_filter": "modified",
+    "visualization": 0,
+    "seed": 50,
+    "actions": [
+                {
+            "type": "INTERMEDIARY",
+            "settings": {
+                "percent": 0.6,
+                "perturb_by_edges": true,
+                "intermediary_depth": 1
+            }
+        },
+        {
+            "type": "SPLIT",
+            "settings": {
+                "percent": 0.4,
+                "perturb_by_edges": false,
+                "split_depth": 1
+            }
+        }        
+    ]
+}
+
+
+
+

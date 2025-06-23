@@ -1,0 +1,7 @@
+{
+    "paths": {
+      "aml_data": "/home/tjclark/RP/data", 
+      "model_to_load": "/home/tjclark/RP/models",
+      "model_to_save": "/home/tjclark/RP/models"
+    }
+  }
