@@ -9,8 +9,6 @@ import os
 import json
 import string
 
-# We previously use eligible_mask and modified_mask but this gets complicated with merging and splitting so now we add columns to laundering_df instead
-
 def controller(config_path=None):
     if not config_path or not os.path.exists(config_path):
         config_path = input("Config file not found: Enter full path to config file: ").strip()

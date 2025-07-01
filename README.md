@@ -3,7 +3,27 @@
 As financial institutions adopt more sophisticated Anti-Money Laundering (AML) techniques, such as the deployment of Graph Neural Networks (GNNs) to detect patterns, laundering behavior is likely to evolve. In this paper, we present a novel perturbation framework that models laundering as an evasion-based, restricted black-box process. Our tool systematically alters labeled laundering subgraphs through a set of parameterized graph actions (intermediary injection, merging, and splitting) designed to simulate realistic laundering adaptations. We apply our framework to one of the AMLWorld synthetic transaction datasets to generate multiple perturbed versions defined by a set of parameterized preset configuration files. We then evaluate the impact of these perturbations on two MEGA-GNN variants of the current state-of-the-art in temporal multigraph-compatible GNN architectures. Our results show that realistic structural perturbations can impact performance and serve as a valuable tool to evaluate model adaptability and robustness. Our work aims to contribute to a deeper understanding of the evolutionary dynamics between AML systems and laundering behavior.
 
 ## Usage
-Perturbation tool: terraform.py
+To use the `terraform.py` perturbation tool, follow these steps:
+
+### 1. Create or Choose a Preset File
+
+Prepare a JSON configuration file that defines the perturbation settings. Example presets are provided in the repository:
+
+- `preset1.json`
+- `preset2.json`
+- `preset3.json`
+- `preset4.json`
+
+Each preset specifies the input/output files, filtering logic, perturbation type(s), and other parameters such as randomness seed and visualization settings.
+
+### 2. Run the Perturbation Tool
+
+Run the tool with:
+
+```bash
+python terraform.py
+```
+You will be prompted to enter the preset filename. The tool will apply the specified perturbations and save the resulting dataset to the path defined in the preset.
 
 ## References
 AMLWorld datasets: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
@@ -32,7 +52,3 @@ MEGA-GNN Repository: https://github.com/hcagri/MEGA-GNN
       url={https://arxiv.org/abs/2412.00241}, 
 }
 ```
-
-## TODO
-- Usage
-
